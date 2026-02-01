@@ -146,11 +146,11 @@
   🕹️ Watch Pac-Man Devour My Contributions!
 </h2>
 
-<picture>
-  <source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/Xavrir/Xavrir/output/pacman-contribution-graph-dark.svg">
-  <source media="(prefers-color-scheme: light)" srcset="https://raw.githubusercontent.com/Xavrir/Xavrir/output/pacman-contribution-graph.svg">
-  <img alt="pacman contribution graph" src="https://raw.githubusercontent.com/Xavrir/Xavrir/output/pacman-contribution-graph.svg">
-</picture>
+###
+
+<img src="https://raw.githubusercontent.com/Xarir/Xarir/output/snake.svg" alt="Snake animation" />
+
+###
 
 ---
 
@@ -180,8 +180,4 @@
 <!-- Footer -->
 <div align="center">
   <img src="https://capsule-render.vercel.app/api?type=waving&color=0:0d1117,50:161b22,100:30363d&height=120&section=footer"/>
-</div>
-
-<div align="center">
-  <sub>⚡ Built with passion by <a href="https://github.com/Xavrir">Rizky</a> ⚡</sub>
 </div>
