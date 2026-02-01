@@ -130,16 +130,15 @@
 
 ---
 
-<!-- Activity Graph -->
-<h2 align="center">
-  📊 Contribution Graph
-</h2>
+<h3 align="left">🔥   My Stats :</h3>
+
+###
 
 <div align="center">
-  <img src="https://github-readme-activity-graph.vercel.app/graph?username=Xavrir&theme=github-dark&bg_color=0d1117&color=58a6ff&line=58a6ff&point=ff6b35&area=true&area_color=58a6ff&hide_border=true" width="100%"/>
+  <img src="https://streak-stats.demolab.com?user=Xavrir&locale=en&mode=daily&theme=dark&hide_border=false&border_radius=5&order=3" height="220" alt="streak graph"  />
 </div>
 
----
+###
 
 <!-- Pac-Man Contribution Graph -->
 <h2 align="center">
