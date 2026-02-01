@@ -36,7 +36,7 @@
       <td>
         <ul>
           <li>🏭 <strong>Full Stack Developer</strong> crafting industrial-grade applications</li>
-          <li>🎓 Currently pursuing <strong>Machine Learning</strong> at <strong>Binus University</strong></li>
+          <li>🎓 Currently pursuing <strong>Computer Science</strong> at <strong>Binus University</strong></li>
           <li>🔧 Building <strong>TuxTuner</strong> - my current passion project</li>
           <li>⚡ I turn complex problems into elegant solutions</li>
           <li>🌐 Personal website <strong>coming soon...</strong></li>
