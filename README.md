@@ -18,7 +18,7 @@
 <!-- Typing Animation -->
 <p align="center">
   <a href="https://git.io/typing-svg">
-    <img src="https://readme-typing-svg.demolab.com?font=Fira+Code&weight=600&size=22&duration=3000&pause=1000&color=58A6FF&center=true&vCenter=true&multiline=true&repeat=true&width=700&height=100&lines=%F0%9F%94%A7+Building+the+future%2C+one+commit+at+a+time;%F0%9F%8E%93+ML+Student+%40+Binus+University;%F0%9F%9A%80+Turning+coffee+into+code+since+day+one" alt="Typing SVG" />
+    <img src="https://readme-typing-svg.demolab.com?font=Fira+Code&weight=600&size=22&duration=3000&pause=1000&color=58A6FF&center=true&vCenter=true&multiline=true&repeat=true&width=700&height=100&lines=%F0%9F%94%A7+Building+the+future%2C+one+commit+at+a+time;%F0%9F%8E%93+CS+Student+%40+Binus+University;%F0%9F%9A%80+Turning+coffee+into+code+since+day+one" alt="Typing SVG" />
   </a>
 </p>
 
