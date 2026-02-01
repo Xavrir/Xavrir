@@ -146,9 +146,10 @@
   🕹️ Watch Pac-Man Devour My Contributions!
 </h2>
 
+
 ###
 
-<img src="https://raw.githubusercontent.com/Xarir/Xarir/output/snake.svg" alt="Snake animation" />
+<img src="https://raw.githubusercontent.com/Xavrir/Xavrir/output/snake.svg" alt="Snake animation" />
 
 ###
 
