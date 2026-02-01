@@ -143,7 +143,7 @@
 
 <!-- Pac-Man Contribution Graph -->
 <h2 align="center">
-  🕹️ Watch Pac-Man Devour My Contributions!
+  🕹️ Watch Snake Devour My Contributions!
 </h2>
 
 
