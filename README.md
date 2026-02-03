@@ -86,53 +86,7 @@
 
 </div>
 
----
 
-<!-- Featured Project -->
-<h2 align="center">
-  🚀 Featured Project
-</h2>
-
-<div align="center">
-  <a href="https://github.com/Xavrir/tuxtuner">
-    <img src="https://github-readme-stats.vercel.app/api/pin/?username=Xavrir&repo=tuxtuner&theme=github_dark&border_color=30363d&bg_color=0d1117&title_color=58a6ff&icon_color=58a6ff&text_color=c9d1d9" />
-  </a>
-</div>
-
-<p align="center">
-  <img src="https://img.shields.io/badge/🐧_TuxTuner-Your_Linux_Fine--Tuning_Companion-58a6ff?style=for-the-badge&labelColor=0d1117" />
-</p>
-
----
-
-<!-- GitHub Stats -->
-<h2 align="center">
-  <img src="https://media.giphy.com/media/cj87CxfRtrUifF3Ber/giphy.gif" width="30"/> 
-  GitHub Analytics
-</h2>
-
-
-<br/>
-
-<div align="center">
-  <img src="https://streak-stats.demolab.com?user=Xavrir&theme=github-dark-blue&border=30363d&background=0D1117&stroke=58a6ff&ring=58a6ff&fire=ff6b35&currStreakNum=c9d1d9&sideNums=c9d1d9&currStreakLabel=58a6ff&sideLabels=58a6ff&dates=6e7681" alt="GitHub Streak"/>
-</div>
-
-<br/>
-
-<div align="center">
-  <img src="https://github-profile-trophy.vercel.app/?username=Xavrir&theme=darkhub&no-frame=true&no-bg=true&margin-w=10&column=7"/>
-</div>
-
----
-
-###
-
-<div align="center">
-  <img src="https://streak-stats.demolab.com?user=Xavrir&locale=en&mode=daily&theme=dark&hide_border=false&border_radius=5&order=3" height="220"/>
-</div>
-
-###
 
 <!-- Pac-Man Contribution Graph -->
 <h2 align="center">
