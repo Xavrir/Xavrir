@@ -49,45 +49,6 @@
   </table>
 </div>
 
----
-
-<!-- Tech Stack -->
-<h2 align="center">
-  <img src="https://media.giphy.com/media/WUlplcMpOCEmTGBtBW/giphy.gif" width="40"/> 
-  Tech Arsenal
-</h2>
-
-<div align="center">
-  
-  ### 🎨 Frontend Technologies
-  <img src="https://skillicons.dev/icons?i=html,css,js,ts,react,nextjs,vue,angular,svelte,tailwind,sass,bootstrap&theme=dark" />
-  
-  ### ⚙️ Backend Technologies
-  <img src="https://skillicons.dev/icons?i=nodejs,express,nestjs,django,flask,fastapi,spring,go,rust,php,laravel,graphql&theme=dark" />
-  
-  ### 🗄️ Databases & Backend Services
-  <img src="https://skillicons.dev/icons?i=mysql,postgres,mongodb,redis,supabase,firebase,prisma,sqlite&theme=dark" />
-  
-  ### 🛠️ Systems & Low-Level
-  <img src="https://skillicons.dev/icons?i=c,cpp,rust,linux,bash,vim,docker,kubernetes&theme=dark" />
-  
-  ### 🤖 AI/ML & Data Science
-  <img src="https://skillicons.dev/icons?i=python,pytorch,tensorflow,sklearn,opencv&theme=dark" />
-  
-  ### ☁️ Cloud & DevOps
-  <img src="https://skillicons.dev/icons?i=aws,gcp,azure,vercel,netlify,heroku,nginx,github,gitlab&theme=dark" />
-  
-  ### 🔧 Tools & Automation
-  <img src="https://skillicons.dev/icons?i=git,vscode,figma,postman,notion,discord&theme=dark" />
-  
-  <!-- n8n badge -->
-  <br/>
-  <img src="https://img.shields.io/badge/n8n-Workflow%20Automation-EA4B71?style=for-the-badge&logo=n8n&logoColor=white" />
-
-</div>
-
-
-
 <!-- Pac-Man Contribution Graph -->
 <h2 align="center">
   🕹️ Watch Snake Devour My Contributions!
