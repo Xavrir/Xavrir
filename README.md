@@ -1,11 +1,11 @@
 <!-- ═══════════════════════════════════════════════════════════════════════════════════ -->
-<!-- 🏭 RIZKY'S INDUSTRIAL COMMAND CENTER 🏭 -->
+<!-- RIZKY'S INDUSTRIAL COMMAND CENTER -->
 <!-- ═══════════════════════════════════════════════════════════════════════════════════ -->
 
 <div align="center">
   
   <!-- Animated Header -->
-  <img src="https://capsule-render.vercel.app/api?type=waving&color=0:0d1117,50:161b22,100:30363d&height=200&section=header&text=RIZKY&fontSize=80&fontColor=58a6ff&animation=fadeIn&fontAlignY=35&desc=⚡%20Full%20Stack%20Developer%20|%20Machine%20Learning%20Engineer%20⚡&descAlignY=55&descSize=18" width="100%"/>
+  <img src="https://capsule-render.vercel.app/api?type=waving&color=0:0d1117,50:161b22,100:30363d&height=200&section=header&text=RIZKY&fontSize=80&fontColor=58a6ff&animation=fadeIn&fontAlignY=35&desc=Full%20Stack%20Developer%20|%20Machine%20Learning%20Engineer&descAlignY=55&descSize=18" width="100%"/>
 
 </div>
 
@@ -18,7 +18,7 @@
 <!-- Typing Animation -->
 <p align="center">
   <a href="https://git.io/typing-svg">
-    <img src="https://readme-typing-svg.demolab.com?font=Fira+Code&weight=600&size=22&duration=3000&pause=1000&color=58A6FF&center=true&vCenter=true&multiline=true&repeat=true&width=700&height=100&lines=%F0%9F%94%A7+Building+the+future%2C+one+commit+at+a+time;%F0%9F%8E%93+CS+Student+%40+Binus+University;%F0%9F%9A%80+Turning+coffee+into+code+since+day+one" alt="Typing SVG" />
+    <img src="https://readme-typing-svg.demolab.com?font=Fira+Code&weight=600&size=22&duration=3000&pause=1000&color=58A6FF&center=true&vCenter=true&multiline=true&repeat=true&width=700&height=100&lines=Building+the+future%2C+one+commit+at+a+time;CS+Student+%40+Binus+University;Turning+coffee+into+code+since+day+one" alt="Typing SVG" />
   </a>
 </p>
 
@@ -35,11 +35,11 @@
     <tr>
       <td>
         <ul>
-          <li>🏭 <strong>Full Stack Developer</strong> crafting industrial-grade applications</li>
-          <li>🎓 Currently pursuing <strong>Computer Science</strong> at <strong>Binus University</strong></li>
-          <li>🔧 Building <strong>TuxTuner</strong> - my current passion project</li>
-          <li>⚡ I turn complex problems into elegant solutions</li>
-          <li>🌐 Personal website <strong>coming soon...</strong></li>
+          <li><strong>Full Stack Developer</strong> crafting industrial-grade applications</li>
+          <li>Currently pursuing <strong>Computer Science</strong> at <strong>Binus University</strong></li>
+          <li>Building <strong>TuxTuner</strong> - my current passion project</li>
+          <li>I turn complex problems into elegant solutions</li>
+          <li>Personal website <strong>coming soon...</strong></li>
         </ul>
       </td>
       <td>
@@ -51,7 +51,7 @@
 
 <!-- Pac-Man Contribution Graph -->
 <h2 align="center">
-  🕹️ Watch Snake Devour My Contributions!
+  Watch Snake Devour My Contributions!
 </h2>
 
 
