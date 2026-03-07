@@ -56,12 +56,12 @@
 
 <h3 align="center">Languages</h3>
 <p align="center">
-  <img src="https://skillicons.dev/icons?i=rust,ts,js,python,cpp,go,html,css&theme=dark" alt="Languages"/>
+  <img src="https://skillicons.dev/icons?i=rust,ts,js,py,cpp,html,css&theme=dark" alt="Languages"/>
 </p>
 
 <h3 align="center">Frameworks & Libraries</h3>
 <p align="center">
-  <img src="https://skillicons.dev/icons?i=react,nextjs,tailwind,nodejs,express,flask&theme=dark" alt="Frameworks"/>
+  <img src="https://skillicons.dev/icons?i=react,nextjs,tailwind,nodejs,vite,threejs&theme=dark" alt="Frameworks"/>
 </p>
 
 <h3 align="center">Mobile Development</h3>
@@ -76,7 +76,7 @@
 
 <h3 align="center">Tools & Infrastructure</h3>
 <p align="center">
-  <img src="https://skillicons.dev/icons?i=supabase,postgres,sqlite,prisma,docker,linux,git,github&theme=dark" alt="Tools"/>
+  <img src="https://skillicons.dev/icons?i=supabase,postgres,sqlite,prisma,docker,linux,git,github,vercel&theme=dark" alt="Tools"/>
 </p>
 
 ---
