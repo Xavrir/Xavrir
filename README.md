@@ -64,6 +64,16 @@
   <img src="https://skillicons.dev/icons?i=react,nextjs,tailwind,nodejs,express,flask&theme=dark" alt="Frameworks"/>
 </p>
 
+<h3 align="center">Mobile Development</h3>
+<p align="center">
+  <img src="https://skillicons.dev/icons?i=react,kotlin,java,dart,flutter,androidstudio&theme=dark" alt="Mobile"/>
+</p>
+
+<h3 align="center">Machine Learning</h3>
+<p align="center">
+  <img src="https://skillicons.dev/icons?i=tensorflow,pytorch,sklearn,opencv&theme=dark" alt="ML"/>
+</p>
+
 <h3 align="center">Tools & Infrastructure</h3>
 <p align="center">
   <img src="https://skillicons.dev/icons?i=supabase,postgres,sqlite,prisma,docker,linux,git,github&theme=dark" alt="Tools"/>
