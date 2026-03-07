@@ -49,6 +49,28 @@
   </table>
 </div>
 
+<!-- Tech Stack -->
+<h2 align="center">
+  Tech Stack
+</h2>
+
+<h3 align="center">Languages</h3>
+<p align="center">
+  <img src="https://skillicons.dev/icons?i=rust,ts,js,python,cpp,go,html,css&theme=dark" alt="Languages"/>
+</p>
+
+<h3 align="center">Frameworks & Libraries</h3>
+<p align="center">
+  <img src="https://skillicons.dev/icons?i=react,nextjs,tailwind,nodejs,express,flask&theme=dark" alt="Frameworks"/>
+</p>
+
+<h3 align="center">Tools & Infrastructure</h3>
+<p align="center">
+  <img src="https://skillicons.dev/icons?i=supabase,postgres,sqlite,prisma,docker,linux,git,github&theme=dark" alt="Tools"/>
+</p>
+
+---
+
 <!-- Pac-Man Contribution Graph -->
 <h2 align="center">
   Watch Snake Devour My Contributions!
