@@ -25,28 +25,25 @@
 ---
 
 <!-- About Me Section -->
-<h2 align="center">
-  <img src="https://media.giphy.com/media/iY8CRBdQXODJSCERIr/giphy.gif" width="30"/> 
-  About Me
-</h2>
+<h2 align="center">About Me</h2>
+
+<p align="center">
+  CS student at <strong>Binus University</strong>. Open source contributor.<br/>
+  I build across the full stack — from Rust system daemons to browser extensions to mobile apps.<br/>
+  Contributor to <a href="https://gitlab.com/asus-linux/supergfxctl"><strong>supergfxctl</strong></a> (GPU switching for ASUS laptops on Linux).
+</p>
+
+<h3 align="center">What I'm Working On</h3>
 
 <div align="center">
-  <table>
-    <tr>
-      <td>
-        <ul>
-          <li><strong>Full Stack Developer</strong> crafting industrial-grade applications</li>
-          <li>Currently pursuing <strong>Computer Science</strong> at <strong>Binus University</strong></li>
-          <li>Building <strong>TuxTuner</strong> - my current passion project</li>
-          <li>I turn complex problems into elegant solutions</li>
-          <li>Personal website <strong>coming soon...</strong></li>
-        </ul>
-      </td>
-      <td>
-        <img src="https://media.giphy.com/media/qgQUggAC3Pfv687qPC/giphy.gif" width="300"/>
-      </td>
-    </tr>
-  </table>
+
+| Project | Description |
+|---------|-------------|
+| [**Nimbus**](https://github.com/nimbus-agent/nimbus) | AI-powered browser agent — control your browser with natural language |
+| [**TuxTuner**](https://github.com/Xavrir/tuxtuner) | GTK4 control center for ASUS gaming laptops on Linux |
+| [**Masjid Display**](https://github.com/Xavrir/Masjid-Jami-al-hidayah-display) | Android TV app for mosque prayer times, treasury, and announcements |
+| [**FreshTrack**](https://github.com/Xavrir/FreshTrack) | Food inventory tracker with expiry alerts and barcode scanning |
+
 </div>
 
 <!-- Tech Stack -->
