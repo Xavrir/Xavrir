@@ -39,7 +39,6 @@
 
 | Project | Description |
 |---------|-------------|
-| [**Nimbus**](https://github.com/nimbus-agent/nimbus) | AI-powered browser agent — control your browser with natural language |
 | [**TuxTuner**](https://github.com/Xavrir/tuxtuner) | GTK4 control center for ASUS gaming laptops on Linux |
 | [**Masjid Display**](https://github.com/Xavrir/Masjid-Jami-al-hidayah-display) | Android TV app for mosque prayer times, treasury, and announcements |
 | [**LuhutOS**](https://github.com/Xavrir/luhutos) | Arch-based Linux distro with GNOME Wayland, safe GPU handling, and macOS-like polish |
