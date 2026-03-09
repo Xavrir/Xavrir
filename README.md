@@ -87,8 +87,8 @@
 </h2>
 
 <div align="center">
-  <img src="https://github-readme-stats.vercel.app/api?username=Xavrir&show_icons=true&theme=github_dark&bg_color=0d1117&border_color=30363d&icon_color=58a6ff&title_color=58a6ff&text_color=c9d1d9&hide_border=false&count_private=true&rank_icon=github&show=reviews,prs_merged,prs_merged_percentage" height="180" alt="GitHub Stats"/>
-  <img src="https://github-readme-stats.vercel.app/api/top-langs/?username=Xavrir&layout=compact&theme=github_dark&bg_color=0d1117&border_color=30363d&title_color=58a6ff&text_color=c9d1d9&hide_border=false&langs_count=8" height="180" alt="Top Languages"/>
+  <img src="https://github-readme-stats-sigma-five.vercel.app/api?username=Xavrir&show_icons=true&theme=github_dark&bg_color=0d1117&border_color=30363d&icon_color=58a6ff&title_color=58a6ff&text_color=c9d1d9&hide_border=false&count_private=true&rank_icon=github&show=reviews,prs_merged,prs_merged_percentage" height="180" alt="GitHub Stats"/>
+  <img src="https://github-readme-stats-sigma-five.vercel.app/api/top-langs/?username=Xavrir&layout=compact&theme=github_dark&bg_color=0d1117&border_color=30363d&title_color=58a6ff&text_color=c9d1d9&hide_border=false&langs_count=8" height="180" alt="Top Languages"/>
 </div>
 
 <br/>
