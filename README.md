@@ -30,7 +30,7 @@
 <p align="center">
   CS student at <strong>Binus University</strong>. Open source contributor.<br/>
   I build across the full stack — from Rust system daemons to browser extensions to mobile apps.<br/>
-  Contributor to <a href="https://gitlab.com/asus-linux/supergfxctl"><strong>supergfxctl</strong></a> (GPU switching for ASUS laptops on Linux).
+  Contributor to <a href="https://github.com/sharkdp/bat"><strong>bat</strong></a> (a <code>cat</code> clone with syntax highlighting — 57k+ stars) and <a href="https://gitlab.com/asus-linux/supergfxctl"><strong>supergfxctl</strong></a> (GPU switching for ASUS laptops on Linux).
 </p>
 
 <h3 align="center">What I'm Working On</h3>
