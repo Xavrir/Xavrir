@@ -81,6 +81,24 @@
 
 ---
 
+<!-- GitHub Stats -->
+<h2 align="center">
+  GitHub Stats
+</h2>
+
+<div align="center">
+  <img src="https://github-readme-stats.vercel.app/api?username=Xavrir&show_icons=true&theme=github_dark&bg_color=0d1117&border_color=30363d&icon_color=58a6ff&title_color=58a6ff&text_color=c9d1d9&hide_border=false&count_private=true" height="180" alt="GitHub Stats"/>
+  <img src="https://github-readme-stats.vercel.app/api/top-langs/?username=Xavrir&layout=compact&theme=github_dark&bg_color=0d1117&border_color=30363d&title_color=58a6ff&text_color=c9d1d9&hide_border=false&langs_count=8" height="180" alt="Top Languages"/>
+</div>
+
+<br/>
+
+<div align="center">
+  <img src="https://streak-stats.demolab.com?user=Xavrir&theme=github-dark-blue&background=0d1117&border=30363d&ring=58a6ff&fire=58a6ff&currStreakLabel=58a6ff&sideLabels=c9d1d9&dates=8b949e" alt="GitHub Streak"/>
+</div>
+
+---
+
 <!-- Pac-Man Contribution Graph -->
 <h2 align="center">
   Watch Snake Devour My Contributions!
