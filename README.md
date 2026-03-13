@@ -1,6 +1,5 @@
 <h2 align="center">Hey👋, Im rizky</h2>
 
-<!-- About Me Section -->
 <h2 align="center">About Me</h2>
 
 <p align="center">
