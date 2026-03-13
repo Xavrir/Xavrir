@@ -1,28 +1,4 @@
-<!-- ═══════════════════════════════════════════════════════════════════════════════════ -->
-<!-- RIZKY'S INDUSTRIAL COMMAND CENTER -->
-<!-- ═══════════════════════════════════════════════════════════════════════════════════ -->
-
-<div align="center">
-  
-  <!-- Animated Header -->
-  <img src="https://capsule-render.vercel.app/api?type=waving&color=0:0d1117,50:161b22,100:30363d&height=200&section=header&text=RIZKY&fontSize=80&fontColor=58a6ff&animation=fadeIn&fontAlignY=35&desc=Full%20Stack%20Developer%20|%20Machine%20Learning%20Engineer&descAlignY=55&descSize=18" width="100%"/>
-
-</div>
-
-<!-- Profile Views Counter -->
-<p align="center">
-  <img src="https://komarev.com/ghpvc/?username=Xavrir&label=Profile%20Views&color=30363d&style=for-the-badge&labelColor=0d1117" alt="Profile Views"/>
-  <img src="https://img.shields.io/github/followers/Xavrir?label=Followers&style=for-the-badge&color=30363d&labelColor=0d1117" alt="Followers"/>
-</p>
-
-<!-- Typing Animation -->
-<p align="center">
-  <a href="https://git.io/typing-svg">
-    <img src="https://readme-typing-svg.demolab.com?font=Fira+Code&weight=600&size=22&duration=3000&pause=1000&color=58A6FF&center=true&vCenter=true&multiline=true&repeat=true&width=700&height=100&lines=Building+the+future%2C+one+commit+at+a+time;CS+Student+%40+Binus+University;Turning+coffee+into+code+since+day+one" alt="Typing SVG" />
-  </a>
-</p>
-
----
+<h2 align="center">Hey👋, Im rizky</h2>
 
 <!-- About Me Section -->
 <h2 align="center">About Me</h2>
