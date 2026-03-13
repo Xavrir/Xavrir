@@ -1,6 +1,6 @@
-<h2 align="center">Hey👋, Im rizky</h2>
+<h2 align="center">Hey👋, Im rizky
 
-<h2 align="center">About Me</h2>
+<h2 align="center">About Me</h2></h2>
 
 <p align="center">
   CS student at <strong>Binus University</strong>. Open source contributor.<br/>
