@@ -13,15 +13,19 @@
 
 | Project | Language | What I Contributed |
 |---------|----------|-------------------|
-| [**bat**](https://github.com/sharkdp/bat) | Rust | `--fallback-syntax` flag, symlink highlighting fix, config dir fix, dep removal ([3 merged](https://github.com/sharkdp/bat/pulls?q=author%3AXavrir)) |
+| [**bat**](https://github.com/sharkdp/bat) | Rust | `--fallback-syntax` flag, symlink highlighting fix, config dir fix, dep replacements ([3 merged, 2 open](https://github.com/sharkdp/bat/pulls?q=author%3AXavrir)) |
 | [**fd**](https://github.com/sharkdp/fd) | Rust | Graceful handling of invalid working dirs with `--full-path` ([merged](https://github.com/sharkdp/fd/pull/1917)) |
+| [**Vite**](https://github.com/vitejs/vite) | TypeScript | Fix `cacheDir` resolution when `node_modules` exists ([PR](https://github.com/vitejs/vite/pull/21777)) |
 | [**lazygit**](https://github.com/jesseduffield/lazygit) | Go | `allBranchesLogExcludeRefs` config, half-screen mode fix, remote browser fix ([3 PRs](https://github.com/jesseduffield/lazygit/pulls?q=author%3AXavrir)) |
 | [**Zed**](https://github.com/zed-industries/zed) | Rust | CSS language server formatting settings ([PR](https://github.com/zed-industries/zed/pull/51407)) |
+| [**Storybook**](https://github.com/storybookjs/storybook) | TypeScript | Fix text controls truncated with special characters ([PR](https://github.com/storybookjs/storybook/pull/34061)) |
 | [**starship**](https://github.com/starship/starship) | Rust | SSH session detection via `SSH_CLIENT`/`SSH_TTY` ([PR](https://github.com/starship/starship/pull/7312)) |
 | [**Neutralinojs**](https://github.com/neutralinojs/neutralinojs) | C++ | Thread-safety fix, duplicate include cleanup, typo fixes ([4 PRs](https://github.com/neutralinojs/neutralinojs/pulls?q=author%3AXavrir)) |
 | [**Apache DataFusion**](https://github.com/apache/datafusion) | Rust | NULL handling docs, row ordering docs ([2 PRs](https://github.com/apache/datafusion/pulls?q=author%3AXavrir)) |
 | [**Boa**](https://github.com/boa-dev/boa) | Rust | JsTypedArray test coverage ([PR](https://github.com/boa-dev/boa/pull/5133)) |
+| [**Deno**](https://github.com/denoland/deno) | Rust | Primordials usage in node/fs compat layer |
 | [**p5.js**](https://github.com/processing/p5.js) | JavaScript | Contributor docs cleanup, style guide additions ([2 PRs](https://github.com/processing/p5.js/pulls?q=author%3AXavrir)) |
+| [**WXT**](https://github.com/wxt-dev/wxt) | TypeScript | Replaced `dotenv` and `minimatch` with builtins |
 | [**capa**](https://github.com/mandiant/capa) | Python | CLI help improvements, Python 3.13 build bump ([2 PRs](https://github.com/mandiant/capa/pulls?q=author%3AXavrir)) |
 | [**SPDX tools**](https://github.com/spdx) | TS/Python | `SpdxVersion` enum refactor, git URL validation fix |
 
