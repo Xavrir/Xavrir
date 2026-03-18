@@ -1,14 +1,33 @@
-<h2 align="center">Hey👋, Im rizky
+<h2 align="center">Hey, I'm Rizky</h2>
 
-<h2 align="center">About Me</h2></h2>
+<h3 align="center">About Me</h3>
 
 <p align="center">
-  CS student at <strong>Binus University</strong>. Open source contributor.<br/>
-  I build across the full stack — from Rust system daemons to browser extensions to mobile apps.<br/>
-  Contributor to <a href="https://github.com/sharkdp/bat"><strong>bat</strong></a> — a <code>cat</code> clone with syntax highlighting (57k+ stars).
+  CS student at <strong>Binus University</strong>. I contribute to open source tools I actually use daily.<br/>
+  Primarily working in Rust, TypeScript, Go, and Python across CLI tools, desktop frameworks, and developer tooling.
 </p>
 
-<h3 align="center">What I'm Working On</h3>
+<h3 align="center">Open Source Contributions</h3>
+
+<div align="center">
+
+| Project | Language | What I Contributed |
+|---------|----------|-------------------|
+| [**bat**](https://github.com/sharkdp/bat) | Rust | `--fallback-syntax` flag, symlink highlighting fix, config dir fix, dep removal ([3 merged](https://github.com/sharkdp/bat/pulls?q=author%3AXavrir)) |
+| [**fd**](https://github.com/sharkdp/fd) | Rust | Graceful handling of invalid working dirs with `--full-path` ([merged](https://github.com/sharkdp/fd/pull/1917)) |
+| [**lazygit**](https://github.com/jesseduffield/lazygit) | Go | `allBranchesLogExcludeRefs` config, half-screen mode fix, remote browser fix ([3 PRs](https://github.com/jesseduffield/lazygit/pulls?q=author%3AXavrir)) |
+| [**Zed**](https://github.com/zed-industries/zed) | Rust | CSS language server formatting settings ([PR](https://github.com/zed-industries/zed/pull/51407)) |
+| [**starship**](https://github.com/starship/starship) | Rust | SSH session detection via `SSH_CLIENT`/`SSH_TTY` ([PR](https://github.com/starship/starship/pull/7312)) |
+| [**Neutralinojs**](https://github.com/neutralinojs/neutralinojs) | C++ | Thread-safety fix, duplicate include cleanup, typo fixes ([4 PRs](https://github.com/neutralinojs/neutralinojs/pulls?q=author%3AXavrir)) |
+| [**Apache DataFusion**](https://github.com/apache/datafusion) | Rust | NULL handling docs, row ordering docs ([2 PRs](https://github.com/apache/datafusion/pulls?q=author%3AXavrir)) |
+| [**Boa**](https://github.com/boa-dev/boa) | Rust | JsTypedArray test coverage ([PR](https://github.com/boa-dev/boa/pull/5133)) |
+| [**p5.js**](https://github.com/processing/p5.js) | JavaScript | Contributor docs cleanup, style guide additions ([2 PRs](https://github.com/processing/p5.js/pulls?q=author%3AXavrir)) |
+| [**capa**](https://github.com/mandiant/capa) | Python | CLI help improvements, Python 3.13 build bump ([2 PRs](https://github.com/mandiant/capa/pulls?q=author%3AXavrir)) |
+| [**SPDX tools**](https://github.com/spdx) | TS/Python | `SpdxVersion` enum refactor, git URL validation fix |
+
+</div>
+
+<h3 align="center">My Projects</h3>
 
 <div align="center">
 
@@ -16,7 +35,7 @@
 |---------|-------------|
 | [**TuxTuner**](https://github.com/Xavrir/tuxtuner) | GTK4 control center for ASUS gaming laptops on Linux |
 | [**Masjid Display**](https://github.com/Xavrir/Masjid-Jami-al-hidayah-display) | Android TV app for mosque prayer times, treasury, and announcements |
-| [**LuhutOS**](https://github.com/Xavrir/luhutos) | Arch-based Linux distro with GNOME Wayland, safe GPU handling, and macOS-like polish |
+| [**LuhutOS**](https://github.com/Xavrir/luhutos) | Arch-based Linux distro with GNOME Wayland and safe GPU handling |
 | [**FreshTrack**](https://github.com/Xavrir/FreshTrack) | Food inventory tracker with expiry alerts and barcode scanning |
 
 </div>
@@ -28,7 +47,7 @@
 
 <h3 align="center">Languages</h3>
 <p align="center">
-  <img src="https://skillicons.dev/icons?i=rust,ts,js,py,cpp,html,css&theme=dark" alt="Languages"/>
+  <img src="https://skillicons.dev/icons?i=rust,ts,js,go,py,cpp,html,css&theme=dark" alt="Languages"/>
 </p>
 
 <h3 align="center">Frameworks & Libraries</h3>
@@ -71,25 +90,17 @@
 
 ---
 
-<!-- Pac-Man Contribution Graph -->
-<h2 align="center">
-  Watch Snake Devour My Contributions!
-</h2>
+<!-- Contribution Graph -->
+<h3 align="center">Contribution Graph</h3>
 
-
-###
-
-<img src="https://raw.githubusercontent.com/Xavrir/Xavrir/output/snake.svg" alt="Snake animation" />
-
-###
+<p align="center">
+  <img src="https://raw.githubusercontent.com/Xavrir/Xavrir/output/snake.svg" alt="Snake animation" />
+</p>
 
 ---
 
-<!-- Connect With Me -->
-<h2 align="center">
-  <img src="https://media.giphy.com/media/LnQjpWaON8nhr21vNW/giphy.gif" width="40"/>
-  Let's Connect!
-</h2>
+<!-- Contact -->
+<h3 align="center">Contact</h3>
 
 <div align="center">
   <a href="https://www.linkedin.com/in/rizky-mirzaviandy-priambodo-a617732b0" target="_blank">
@@ -100,15 +111,4 @@
   </a>
 </div>
 
-<br/>
 
-<div align="center">
-  <img src="https://quotes-github-readme.vercel.app/api?type=horizontal&theme=dark" alt="Random Dev Quote"/>
-</div>
-
----
-
-<!-- Footer -->
-<div align="center">
-  <img src="https://capsule-render.vercel.app/api?type=waving&color=0:0d1117,50:161b22,100:30363d&height=120&section=footer"/>
-</div>
