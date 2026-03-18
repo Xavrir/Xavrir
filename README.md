@@ -15,7 +15,7 @@
 |---------|----------|-------------------|
 | [**bat**](https://github.com/sharkdp/bat) | Rust | `--fallback-syntax` flag, symlink highlighting fix, config dir fix, dep replacements ([3 merged, 2 open](https://github.com/sharkdp/bat/pulls?q=author%3AXavrir)) |
 | [**fd**](https://github.com/sharkdp/fd) | Rust | Graceful handling of invalid working dirs with `--full-path` ([merged](https://github.com/sharkdp/fd/pull/1917)) |
-| [**Vite**](https://github.com/vitejs/vite) | TypeScript | Fix `cacheDir` resolution when `node_modules` exists ([PR](https://github.com/vitejs/vite/pull/21777)) |
+| [**Vite**](https://github.com/vitejs/vite) | TypeScript | Fix `cacheDir` resolution when `node_modules` exists, approved for **v8.1** ([PR](https://github.com/vitejs/vite/pull/21777)) |
 | [**lazygit**](https://github.com/jesseduffield/lazygit) | Go | `allBranchesLogExcludeRefs` config, half-screen mode fix, remote browser fix ([3 PRs](https://github.com/jesseduffield/lazygit/pulls?q=author%3AXavrir)) |
 | [**Zed**](https://github.com/zed-industries/zed) | Rust | CSS language server formatting settings ([PR](https://github.com/zed-industries/zed/pull/51407)) |
 | [**Storybook**](https://github.com/storybookjs/storybook) | TypeScript | Fix text controls truncated with special characters ([PR](https://github.com/storybookjs/storybook/pull/34061)) |
