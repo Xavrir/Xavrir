@@ -25,7 +25,7 @@
 | [**WXT**](https://github.com/wxt-dev/wxt) | 9.4k | TypeScript | Replaced `dotenv` and `minimatch` with builtins |
 | [**Apache DataFusion**](https://github.com/apache/datafusion) | 8.5k | Rust | NULL handling docs, row ordering docs ([2 PRs](https://github.com/apache/datafusion/pulls?q=author%3AXavrir)) |
 | [**Neutralinojs**](https://github.com/neutralinojs/neutralinojs) | 8.4k | C++ | Thread-safety fix, duplicate include cleanup, typo fixes ([4 PRs](https://github.com/neutralinojs/neutralinojs/pulls?q=author%3AXavrir)) |
-| [**Boa**](https://github.com/boa-dev/boa) | 7k | Rust | JsTypedArray test coverage ([PR](https://github.com/boa-dev/boa/pull/5133)) |
+| [**Boa**](https://github.com/boa-dev/boa) | 7k | Rust | JsTypedArray test coverage ([merged](https://github.com/boa-dev/boa/pull/5133)) |
 | [**capa**](https://github.com/mandiant/capa) | 5.9k | Python | CLI help improvements, Python 3.13 build bump ([2 PRs](https://github.com/mandiant/capa/pulls?q=author%3AXavrir)) |
 | [**SPDX tools**](https://github.com/spdx) | -- | TS/Python | `SpdxVersion` enum refactor, git URL validation fix |
 
