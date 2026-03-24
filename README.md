@@ -18,7 +18,29 @@ CS student at Binus University. I contribute to open source tools I actually use
 
 ## Stack
 
-Rust, TypeScript, JavaScript, Go, Python, React, React Native, Node.js, PostgreSQL, Docker, and Linux.
+<p align="center"><strong>Languages</strong></p>
+
+<p align="center">
+  <img src="https://skillicons.dev/icons?i=rust,ts,js,go,py,cpp,java,kotlin,html,css,bash" alt="Languages" />
+</p>
+
+<p align="center"><strong>Web and app development</strong></p>
+
+<p align="center">
+  <img src="https://skillicons.dev/icons?i=react,nextjs,nodejs,vite,tailwind,threejs,flutter,dart,androidstudio,electron" alt="Web and app development" />
+</p>
+
+<p align="center"><strong>Machine learning</strong></p>
+
+<p align="center">
+  <img src="https://skillicons.dev/icons?i=tensorflow,pytorch,sklearn,opencv" alt="Machine learning" />
+</p>
+
+<p align="center"><strong>Infra and tools</strong></p>
+
+<p align="center">
+  <img src="https://skillicons.dev/icons?i=postgres,supabase,sqlite,prisma,docker,linux,git,github,vercel,cloudflare,firebase" alt="Infra and tools" />
+</p>
 
 ## GitHub
 
