@@ -1,6 +1,5 @@
 # Hi, I'm Rizky
-
-CS student at Binus University. I contribute to open source tools I actually use and build across Rust, TypeScript, Go, and Python.
+I contribute to open source tools I actually use and build across Rust, TypeScript, Go, and Python.
 
 ## Current work
 
