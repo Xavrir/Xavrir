@@ -3,7 +3,6 @@ I contribute to open source tools I actually use and build across Rust, TypeScri
 
 ## Current work
 
-- [Nimbus](https://github.com/nimbus-agent/nimbus) - AI-powered browser agent with natural language control
 - [TuxTuner](https://github.com/Xavrir/tuxtuner) - GTK4 control center for ASUS gaming laptops on Linux
 - [Masjid Display](https://github.com/Xavrir/Masjid-Jami-al-hidayah-display) - Android TV app for prayer times, treasury, and announcements
 - [LuhutOS](https://github.com/Xavrir/luhutos) - Arch-based Linux distro with GNOME Wayland and safe GPU handling
