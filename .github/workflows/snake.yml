@@ -1,23 +1,56 @@
-name: Generate snake animation
+name: Update profile images
 
 on:
-  schedule: # execute every 12 hours
-    - cron: "* */12 * * *"
+  schedule:
+    - cron: "0 */12 * * *"
 
   workflow_dispatch:
 
   push:
     branches:
     - main
+    paths:
+      - .github/workflows/snake.yml
+
+concurrency:
+  group: profile-images
+  cancel-in-progress: false
 
 jobs:
   generate:
     permissions:
       contents: write
     runs-on: ubuntu-latest
-    timeout-minutes: 5
+    timeout-minutes: 15
 
     steps:
+      - uses: actions/checkout@v4
+
+      - name: Generate stats card
+        uses: stats-organization/github-readme-stats-action@e856fc8de9d7729b463c468911e232cfbdc3d55e # v2
+        with:
+          card: stats
+          options: username=${{ github.repository_owner }}&show_icons=true&theme=github_dark&bg_color=0d1117&border_color=30363d&icon_color=58a6ff&title_color=58a6ff&text_color=c9d1d9&rank_icon=github&show=reviews,prs_merged,prs_merged_percentage
+          path: dist/stats.svg
+          token: ${{ secrets.GITHUB_TOKEN }}
+          fail_on_error: true
+
+      - name: Generate language card
+        uses: stats-organization/github-readme-stats-action@e856fc8de9d7729b463c468911e232cfbdc3d55e # v2
+        with:
+          card: top-langs
+          options: username=${{ github.repository_owner }}&layout=compact&theme=github_dark&bg_color=0d1117&border_color=30363d&title_color=58a6ff&text_color=c9d1d9&langs_count=8
+          path: dist/top-langs.svg
+          token: ${{ secrets.GITHUB_TOKEN }}
+          fail_on_error: true
+
+      - name: Generate streak card
+        uses: DenverCoder1/github-readme-streak-stats@9202e37665889fdb42d9a7df8501c1800acf761d
+        with:
+          options: user=${{ github.repository_owner }}&theme=github-dark-blue&background=0d1117&border=30363d&ring=58a6ff&fire=58a6ff&currStreakLabel=58a6ff&sideLabels=c9d1d9&dates=8b949e
+          path: dist/streak.svg
+          token: ${{ secrets.GITHUB_TOKEN }}
+
       - name: generate snake.svg
         uses: Platane/snk/svg-only@v3
         with:
@@ -25,7 +58,20 @@ jobs:
           outputs: dist/snake.svg?palette=github-dark
 
 
-      - name: push snake.svg to the output branch
+      - name: Check generated images
+        run: |
+          python - <<'PY'
+          from pathlib import Path
+          from xml.etree import ElementTree
+          for name in ('stats.svg', 'top-langs.svg', 'streak.svg', 'snake.svg'):
+              path = Path('dist') / name
+              root = ElementTree.parse(path).getroot()
+              assert root.tag == '{http://www.w3.org/2000/svg}svg', name
+              text = ''.join(root.itertext()).lower()
+              assert not any(error in text for error in ('something went wrong', 'maximum retries', 'rate limit exceeded')), name
+          PY
+
+      - name: Publish profile images
         uses: crazy-max/ghaction-github-pages@v3.1.0
         with:
           target_branch: output
