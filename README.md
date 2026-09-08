@@ -17,7 +17,7 @@ I build tools I want to use, from Linux systems to web and mobile apps. I work w
 </p>
 
 <p align="center">
-  <img src="https://raw.githubusercontent.com/Xavrir/Xavrir/output/ascii-portrait.svg?v=avatar" width="35%" alt="My current GitHub profile picture rendered as a typing ASCII portrait" />
+  <img src="https://raw.githubusercontent.com/Xavrir/Xavrir/output/avatar-ascii.svg" width="35%" alt="My current GitHub profile picture rendered as a typing ASCII portrait" />
   <img src="https://raw.githubusercontent.com/Xavrir/Xavrir/output/info-card.svg" width="63%" alt="Terminal profile: Rizky / Xavrir, software engineer and BINUS University student, building TuxTuner, Masjid Display, LuhutOS, and FreshTrack with Rust, TypeScript, Go, and Python" />
 </p>
 

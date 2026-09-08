@@ -76,7 +76,7 @@ jobs:
           python - <<'PY'
           from pathlib import Path
           from xml.etree import ElementTree
-          for name in ('stats.svg', 'top-langs.svg', 'streak.svg', 'snake.svg', 'contrib-heatmap.svg', 'info-card.svg', 'ascii-portrait.svg'):
+          for name in ('stats.svg', 'top-langs.svg', 'streak.svg', 'snake.svg', 'contrib-heatmap.svg', 'info-card.svg', 'avatar-ascii.svg'):
               path = Path('dist') / name
               root = ElementTree.parse(path).getroot()
               assert root.tag == '{http://www.w3.org/2000/svg}svg', name

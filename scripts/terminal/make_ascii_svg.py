@@ -5,7 +5,7 @@ Each row wipes in left-to-right with a block cursor riding the edge,
 staggered top to bottom. SMIL only — GitHub plays it inside <img>.
 
 Usage: python scripts/make_ascii_svg.py [--cols 100]
-Writes ascii-portrait.svg.
+Writes avatar-ascii.svg.
 """
 import html
 import io
@@ -83,9 +83,9 @@ def main() -> None:
 
     parts.append("</svg>")
     out = "\n".join(parts)
-    with open("ascii-portrait.svg", "w") as f:
+    with open("avatar-ascii.svg", "w") as f:
         f.write(out)
-    print(f"wrote ascii-portrait.svg ({cols}x{rows} chars, {len(out) // 1024} KiB)")
+    print(f"wrote avatar-ascii.svg ({cols}x{rows} chars, {len(out) // 1024} KiB)")
 
 
 if __name__ == "__main__":
