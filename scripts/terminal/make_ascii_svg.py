@@ -1,5 +1,5 @@
 #!/usr/bin/env python3
-"""Render the Xavrir monogram as a self-typing monochrome ASCII SVG.
+"""Render the current GitHub avatar as a self-typing monochrome ASCII SVG.
 
 Each row wipes in left-to-right with a block cursor riding the edge,
 staggered top to bottom. SMIL only — GitHub plays it inside <img>.
@@ -8,10 +8,14 @@ Usage: python scripts/make_ascii_svg.py [--cols 100]
 Writes ascii-portrait.svg.
 """
 import html
+import io
+import os
 import sys
 
+import requests
+from PIL import Image, ImageOps
 
-RAMP = " .`:-=+*cs#%@"  # bright (sparse) -> dark (dense); leading space = blank bg
+RAMP = " .`:-=+*cs#%@"  # dark pixels are sparse on the dark terminal background
 COLS = 100
 CHAR_W = 7.2  # px per glyph at font-size 12 monospace
 CHAR_H = 12.6
@@ -26,20 +30,19 @@ def main() -> None:
     if "--cols" in sys.argv:
         cols = int(sys.argv[sys.argv.index("--cols") + 1])
 
-    # A terminal-native monogram, rather than a processed portrait.
-    lines = []
-    for row in range(31):
-        left = round(row * 1.6)
-        right = 48 - left
-        line = [" "] * 60
-        for start in (left, right):
-            for col in range(start, start + 10):
-                if 0 <= col < len(line):
-                    line[col] = "#"
-        lines.append("".join(line).rstrip())
-    lines.extend(["", "                  X A V R I R"])
-    cols = 60
-    rows = len(lines)
+    username = os.environ["GITHUB_USERNAME"]
+    profile = requests.get(f"https://api.github.com/users/{username}", timeout=30)
+    profile.raise_for_status()
+    avatar = requests.get(profile.json()["avatar_url"], timeout=30)
+    avatar.raise_for_status()
+    img = ImageOps.autocontrast(Image.open(io.BytesIO(avatar.content)).convert("L"))
+    rows = max(1, round(img.height / img.width * cols * CHAR_W / CHAR_H))
+    small = img.resize((cols, rows), Image.Resampling.LANCZOS)
+    lines = [
+        "".join(RAMP[round(small.getpixel((x, y)) / 255 * (len(RAMP) - 1))]
+                for x in range(cols)).rstrip()
+        for y in range(rows)
+    ]
 
     w = round(cols * CHAR_W + 24)
     h = round(rows * CHAR_H + 24)
