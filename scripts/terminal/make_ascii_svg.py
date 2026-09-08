@@ -31,9 +31,7 @@ def main() -> None:
         cols = int(sys.argv[sys.argv.index("--cols") + 1])
 
     username = os.environ["GITHUB_USERNAME"]
-    profile = requests.get(f"https://api.github.com/users/{username}", timeout=30)
-    profile.raise_for_status()
-    avatar = requests.get(profile.json()["avatar_url"], timeout=30)
+    avatar = requests.get(f"https://github.com/{username}.png?size=460", timeout=30)
     avatar.raise_for_status()
     img = ImageOps.autocontrast(Image.open(io.BytesIO(avatar.content)).convert("L"))
     rows = max(1, round(img.height / img.width * cols * CHAR_W / CHAR_H))
