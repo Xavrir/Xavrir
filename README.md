@@ -10,13 +10,24 @@
 
 I build tools I want to use, from Linux systems to web and mobile apps. I work with Rust, TypeScript, Go, and Python, and contribute fixes to open source projects.
 
-## Contribution skyline
+## Terminal
 
 <p align="center">
-  <img src="https://raw.githubusercontent.com/Xavrir/Xavrir/output/skyline.svg" width="100%" alt="A blue 3D skyline of my GitHub contribution calendar, with columns showing daily activity." />
+  <code>xavrir@github ~ $ whoami</code>
 </p>
 
-<p align="center"><sub>A new view of the contribution calendar · updated every 12 hours</sub></p>
+<p align="center">
+  <img src="https://raw.githubusercontent.com/Xavrir/Xavrir/output/ascii-portrait.svg" width="35%" alt="An ASCII X monogram that types itself onto the screen" />
+  <img src="https://raw.githubusercontent.com/Xavrir/Xavrir/output/info-card.svg" width="63%" alt="Terminal profile: Rizky / Xavrir, software engineer and BINUS University student, building TuxTuner, Masjid Display, LuhutOS, and FreshTrack with Rust, TypeScript, Go, and Python" />
+</p>
+
+<p align="center"><code>xavrir@github ~ $ ./contributions.sh</code></p>
+
+<p align="center">
+  <img src="https://raw.githubusercontent.com/Xavrir/Xavrir/output/contrib-heatmap.svg" width="100%" alt="Animated GitHub contribution calendar with totals and streaks" />
+</p>
+
+<p align="center"><sub>Updated every 12 hours · <a href="https://github.com/navi3582/animated-github-profile">Terminal template</a></sub></p>
 
 ## On my workbench
 

@@ -11,7 +11,7 @@ on:
     - main
     paths:
       - .github/workflows/snake.yml
-      - assets/contribution-theme.json
+      - scripts/terminal/**
 
 concurrency:
   group: profile-images
@@ -59,22 +59,24 @@ jobs:
           outputs: dist/snake.svg?palette=github-dark
 
 
-      - name: Generate 3D contribution skyline
-        uses: yoshi389111/github-profile-3d-contrib@7d95e7d4cdc028dd1e1cbd957d65f35efb12ae39
+      - name: Generate animated terminal profile
         env:
-          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
-          USERNAME: ${{ github.repository_owner }}
-          SETTING_JSON: assets/contribution-theme.json
-
-      - name: Collect skyline image
-        run: cp profile-3d-contrib/profile-orbital.svg dist/skyline.svg
+          GITHUB_USERNAME: ${{ github.repository_owner }}
+          TZ: Asia/Jakarta
+        run: |
+          python -m pip install -r scripts/terminal/requirements.txt
+          cd dist
+          python ../scripts/terminal/fetch_contributions.py
+          python ../scripts/terminal/render_heatmap_svg.py
+          python ../scripts/terminal/make_info_card.py
+          python ../scripts/terminal/make_ascii_svg.py
 
       - name: Check generated images
         run: |
           python - <<'PY'
           from pathlib import Path
           from xml.etree import ElementTree
-          for name in ('stats.svg', 'top-langs.svg', 'streak.svg', 'snake.svg', 'skyline.svg'):
+          for name in ('stats.svg', 'top-langs.svg', 'streak.svg', 'snake.svg', 'contrib-heatmap.svg', 'info-card.svg', 'ascii-portrait.svg'):
               path = Path('dist') / name
               root = ElementTree.parse(path).getroot()
               assert root.tag == '{http://www.w3.org/2000/svg}svg', name
