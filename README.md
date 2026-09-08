@@ -52,7 +52,7 @@ I contribute to open source tools I actually use and build across Rust, TypeScri
 </p>
 
 <p align="center">
-  <img src="https://raw.githubusercontent.com/Xavrir/Xavrir/output/snake.svg" alt="Contribution graph animation" />
+  <img src="https://raw.githubusercontent.com/Xavrir/Xavrir/output/snake.svg?v=20260908" alt="Contribution graph animation" />
 </p>
 
 ## Connect
