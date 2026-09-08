@@ -1,0 +1,11 @@
+{
+  "type": "normal",
+  "fileName": "profile-orbital.svg",
+  "backgroundColor": "#201d1d",
+  "foregroundColor": "#fdfcfc",
+  "strongColor": "#58a6ff",
+  "weakColor": "#9a9898",
+  "radarColor": "#007aff",
+  "growingAnimation": true,
+  "contribColors": ["#302c2c", "#173559", "#175699", "#007aff", "#8cc8ff"]
+}

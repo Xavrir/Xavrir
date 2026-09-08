@@ -11,6 +11,7 @@ on:
     - main
     paths:
       - .github/workflows/snake.yml
+      - assets/contribution-theme.json
 
 concurrency:
   group: profile-images
@@ -58,12 +59,22 @@ jobs:
           outputs: dist/snake.svg?palette=github-dark
 
 
+      - name: Generate 3D contribution skyline
+        uses: yoshi389111/github-profile-3d-contrib@7d95e7d4cdc028dd1e1cbd957d65f35efb12ae39
+        env:
+          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+          USERNAME: ${{ github.repository_owner }}
+          SETTING_JSON: assets/contribution-theme.json
+
+      - name: Collect skyline image
+        run: cp profile-3d-contrib/profile-orbital.svg dist/skyline.svg
+
       - name: Check generated images
         run: |
           python - <<'PY'
           from pathlib import Path
           from xml.etree import ElementTree
-          for name in ('stats.svg', 'top-langs.svg', 'streak.svg', 'snake.svg'):
+          for name in ('stats.svg', 'top-langs.svg', 'streak.svg', 'snake.svg', 'skyline.svg'):
               path = Path('dist') / name
               root = ElementTree.parse(path).getroot()
               assert root.tag == '{http://www.w3.org/2000/svg}svg', name
