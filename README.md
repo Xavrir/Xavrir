@@ -43,12 +43,12 @@ I contribute to open source tools I actually use and build across Rust, TypeScri
 ## GitHub
 
 <p align="center">
-  <img src="https://github-readme-stats-sigma-five.vercel.app/api?username=Xavrir&show_icons=true&theme=github_dark&bg_color=0d1117&border_color=30363d&icon_color=58a6ff&title_color=58a6ff&text_color=c9d1d9&count_private=true&rank_icon=github&show=reviews,prs_merged,prs_merged_percentage" height="180" alt="GitHub stats"/>
-  <img src="https://github-readme-stats-sigma-five.vercel.app/api/top-langs/?username=Xavrir&layout=compact&theme=github_dark&bg_color=0d1117&border_color=30363d&title_color=58a6ff&text_color=c9d1d9&langs_count=8" height="180" alt="Top languages"/>
+  <img src="https://raw.githubusercontent.com/Xavrir/Xavrir/output/stats.svg" height="180" alt="GitHub stats"/>
+  <img src="https://raw.githubusercontent.com/Xavrir/Xavrir/output/top-langs.svg" height="180" alt="Top languages"/>
 </p>
 
 <p align="center">
-  <img src="https://streak-stats.demolab.com?user=Xavrir&theme=github-dark-blue&background=0d1117&border=30363d&ring=58a6ff&fire=58a6ff&currStreakLabel=58a6ff&sideLabels=c9d1d9&dates=8b949e" alt="GitHub streak"/>
+  <img src="https://raw.githubusercontent.com/Xavrir/Xavrir/output/streak.svg" alt="GitHub streak"/>
 </p>
 
 <p align="center">
